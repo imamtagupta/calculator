@@ -1,9 +1,37 @@
+.outer{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .App {
   text-align: center;
+  align-items: center;
+  width: 300px;
+}
+
+.previousInputStyle{
+  font-size: 25px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 0 10px 0;
+  background-color: transparent;
+  text-align: end;
+  color: #555;
+}
+
+.inputStyle{
+  font-size: 30px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: transparent;
+  text-align: end;
 }
 
 .App-logo {
-  height: 40vmin;
   pointer-events: none;
 }
 
